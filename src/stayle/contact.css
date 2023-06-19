@@ -1,0 +1,170 @@
+ .grid__contact{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+    background-color: rgb(24, 23, 23);
+    margin-top: -5rem;
+ 
+}
+.grid-map{
+    margin-left: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.messagebox{
+    margin-left: 9rem;
+    margin-top:-4rem;
+}
+.formcolortext{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin-left: 1rem;
+    text-transform: capitalize;
+    color:goldenrod;
+    margin-top: -2rem;
+}
+.txtarea{
+   
+    padding: 0 2rem;
+      background: #FFFFFF;
+      border: 1px solid #D3D3D3;
+      border-radius: 20px;
+      margin-left: 2rem;
+  height: 100px;
+  width: 190%;
+  
+  }
+  .formbox{
+    /* width: 50px; */
+    height: 50px;
+   padding: 0 1.5rem;
+    box-sizing: border-box;
+    background: #FFFFFF;
+opacity: 0.87;
+border: 1px solid #D3D3D3;
+border-radius: 100px;
+}
+.formbox:hover{
+    color: #0E828F;
+    opacity:  #0E828F;;
+}
+.submit-button{
+    padding: 16px 33px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 1rem; 
+    color: white;
+   padding: 1rem;
+   margin-left: 2rem;
+   margin-bottom: 3rem;
+
+border-radius: 40px;
+background: transparent;
+	border: 1px solid;
+	border-color: goldenrod;
+
+}
+.subdiv1{
+    padding:2rem;
+    /* width: 50%; */
+    margin-left: 8rem;
+    font-family: 'Syne';
+    font-style: normal;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 7rem;
+    /* text-transform: capitalize; */
+    color:goldenrod;
+ }
+
+.subdiv2
+{
+padding: 2rem;
+width:50%;
+font-family: 'Syne';
+font-style: normal;
+font-family: 'Syne';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color:goldenrod;
+margin-top: 7rem;
+}
+.form{
+display: grid;
+grid-template-rows: 20% 20%;
+font-family: 'Syne';
+font-style: normal;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+
+color:goldenrod;
+
+}
+.map{
+    width: 200%;
+    height: 200%;
+    padding: 3rem;
+    margin-top: 8rem;
+}
+@media only screen and (max-width: 700px) {
+    .grid__contact{
+     grid-template-columns: 1fr;
+     /* margin-left: -8;
+     padding: 5rem; */
+    }
+    .messagebox{
+        margin-left: 7rem;
+        margin-top: -16rem;
+        margin-bottom: 14rem;
+    }
+    .submit-button{
+        margin-left: -3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+       
+    }
+    .grid-map img{
+        margin-left: -3rem;
+        padding: 1rem;
+       width: 100%;
+    }
+  
+    .subdiv1
+    {
+    padding:0px ;
+    /* width:100% ; */
+    margin-left:2rem;
+    margin-top:1rem;
+    }
+    .formcolortext{
+        margin-top: 10rem;
+        margin-left: -6rem;
+        padding: 1rem;
+    }
+    .subdiv2
+    {
+    padding:0px ;
+    margin-left:2rem;
+    margin-top: 2rem;
+    }
+    .txtarea{
+        height: 9rem;
+        width: 15rem;
+        padding: 1rem;
+        margin-left:-5rem;
+       
+       }
+}

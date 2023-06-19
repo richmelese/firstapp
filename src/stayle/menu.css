@@ -1,0 +1,122 @@
+  .grid__container{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% ;
+    gap: 0%;
+    text-align: center;
+     padding: 2rem;
+     margin-top: -2rem;
+    grid-auto-rows: minmax(200px,auto);
+    background-color: rgb(36, 33, 33);
+    margin-top: 3rem;
+}
+ .grid-Menuheader {
+    grid-column: 1/-1;
+    margin-left: 3rem;
+    margin-top: 3rem;
+ }
+ .grid-Menuheader h1{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #eb920e; 
+    text-align: center;
+    margin-left: 10rem;
+ }
+ .text {
+    margin-top: 3rem;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* margin-top: 1rem; */
+    color: goldenrod;
+ }
+ .normal-burger img {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 150px;
+    height: 100px;
+   
+  }
+  .special-burger img{
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 150px;
+    height: 100px;
+   
+  }
+  .club-sandwich img{
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 150px;
+    height: 100px;
+  }
+  .egg-burger img{
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 150px;
+    height: 100px;
+  }
+  .double-burger img{
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 150px;
+    height: 100px;
+  }
+  .cheken-burger img{
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 150px;
+    height: 100px;
+  }
+  .Chees-burger img{
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 150px;
+    height: 100px;
+   
+  }
+  @media only screen and (max-width: 700px) {
+    .grid__container{
+        grid-template-columns: 1fr;
+        margin-top: -10rem;
+        padding: 0;
+    }
+    .special-burger img{
+      width: 100%;
+      height: 100%;
+    }
+    .cont{
+      padding: 2rem;
+    }
+    .grid-Menuheader h1{
+      margin-left: -2rem;
+      margin-top: 3rem;
+
+    }
+    .double-burger img{
+      width: 100%;
+      height: 100%;
+
+    }
+    .normal-burger img{
+      width: 100%;
+      height: 100%;
+    }
+    .egg-burger img{
+      width: 100%;
+      height: 100%;
+    }
+    .cheken-burger  img{
+      width: 100%;
+      height: 100%;
+    }
+    .Chees-burger img{
+      width: 90%;
+      height: 80%;
+    }
+  }
+      

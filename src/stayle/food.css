@@ -1,0 +1,64 @@
+.table-header {
+    background-color: black;
+    margin-right: 1rem;
+    width: 53rem;
+    margin-left: 9rem;
+  }
+  
+  th {
+    color: #db9534;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  tr {
+    color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .row {
+    margin-right: 12px;
+  }
+  table {
+    width: 12rem;
+  }
+  #data-fi {
+    height: 40rem;
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin-top: -8rem;
+    margin-left: 16rem;
+  }
+  .menu-bg {
+    padding-top: 11rem;
+    padding-bottom: 13rem;
+  }
+  .row {
+    margin-right: 15px;
+  }
+  table {
+    width: 15rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .table-header {
+      background-color: black;
+      margin-right: 0rem;
+      width: 100%;
+      margin-left: 0rem;
+    }
+    #data-fi {
+      margin-left: 0rem;
+    }
+    th {
+      font-size: 15px;
+    }
+  }
+  
